@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Completo de Doenças e Biologia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Guia Completo de Doenças e Micologia</h1>
+        <p>Clique em um item para ver suas características detalhadas ou consulte o glossário abaixo</p>
+    </header>
+
+    <main class="container">
+        <!-- O JavaScript preenche as doenças e categorias aqui -->
+        <div id="container-categorias"></div>
+
+        <!-- SEÇÃO DE LEGENDA / GLOSSÁRIO DE TERMOS TÉCNICOS -->
+        <section class="categoria glossario-box">
+            <h2>📖 Glossário & Termos Técnicos Explicados</h2>
+            <div class="grid-glossario">
+                <div class="termo-item">
+                    <strong>Eucarionte / Célula Eucariótica:</strong>
+                    <p>Célula que possui núcleo verdadeiro delimitado por uma membrana (carioteca) e organelas membranosas (ex: fungos, protozoários, plantas e animais).</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Procarionte / Célula Procariótica:</strong>
+                    <p>Célula mais simples que não possui núcleo organizado nem carioteca; o material genético fica disperso no citoplasma (ex: bactérias).</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Carioteca:</strong>
+                    <p>Membrana nuclear que envolve e protege o material genético (DNA) nas células eucariontes. Vírus não têm célula nem carioteca.</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Profilaxia:</strong>
+                    <p>Conjunto de medidas e precauções tomadas para prevenir o aparecimento ou a propagação de doenças (vacinas, saneamento, higiene).</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Agente Etiológico:</strong>
+                    <p>O causador da doença (o vírus, a bactéria, o protozoário ou o fungo responsável pela infecção).</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Vetor:</strong>
+                    <p>Ser vivo (geralmente um inseto ou carrapato) que transmite o agente infeccioso de um hospedeiro para outro.</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Gram-positivo / Gram-negativo:</strong>
+                    <p>Classificação das bactérias baseada na reação à coloração de Gram, que depende da composição de suas paredes celulares.</p>
+                </div>
+                <div class="termo-item">
+                    <strong>Micotoxina:</strong>
+                    <p>Substância tóxica produzida naturalmente por determinados fungos (geralmente encontrada em grãos e alimentos mal armazenados).</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- JANELA (MODAL) DE DETALHES -->
+    <div id="modal-doenca" class="modal" onclick="fecharModalFora(event)">
+        <div class="modal-conteudo">
+            <span class="fechar" onclick="fecharModal()">&times;</span>
+            <h2 id="modal-titulo">Nome</h2>
+            <span id="modal-tipo" class="badge">Categoria</span>
+            
+            <div class="info-grid">
+                <div class="info-box" id="box-agente">
+                    <strong id="label-agente">Agente / Fungo / Bactéria:</strong>
+                    <p id="modal-agente">...</p>
+                </div>
+                <div class="info-box" id="box-transmissao">
+                    <strong>Transmissão / Forma de Infecção:</strong>
+                    <p id="modal-transmissao">...</p>
+                </div>
+                <div class="info-box" id="box-sintomas">
+                    <strong>Sintomas / Patologia / Efeitos:</strong>
+                    <p id="modal-sintomas">...</p>
+                </div>
+                <div class="info-box" id="box-profilaxia">
+                    <strong>Profilaxia / Prevenção:</strong>
+                    <p id="modal-profilaxia">...</p>
+                </div>
+                <div class="info-box" id="box-tratamento">
+                    <strong>Tratamento / Observações / Substrato:</strong>
+                    <p id="modal-tratamento">...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Material de Estudo - Biologia & Ciências</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

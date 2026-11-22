@@ -1,0 +1,426 @@
+{
+  "categorias": [
+    {
+      "titulo": "🦠 Doenças Virais",
+      "tipo": "Viral",
+      "doencas": [
+        {
+          "nome": "AIDS (HIV)",
+          "agente": "HIV-1 e HIV-2 | RNA | Envelopado",
+          "transmissao": "Relações sexuais e sangue",
+          "sintomas": "Exantema, aftas, inchaço dos nós linfáticos, febre, tosse, mal estar, diarreia. Suscetibilidade a doenças oportunistas.",
+          "profilaxia": "Preservativo, não compartilhar seringas. Coquetel de drogas que inibe a replicação.",
+          "tratamento": "Não há vacina."
+        },
+        {
+          "nome": "Hepatite A",
+          "agente": "HAV | RNA | Não envelopado",
+          "transmissao": "Fecal-oral",
+          "sintomas": "Febre, vômito, náuseas e icterícia.",
+          "profilaxia": "Saneamento básico.",
+          "tratamento": "Pode ser assintomática. Há vacina."
+        },
+        {
+          "nome": "Hepatite B",
+          "agente": "HBV | DNA | Envelopado",
+          "transmissao": "Relações sexuais e sangue",
+          "sintomas": "Icterícia. A forma crônica causa cirrose.",
+          "profilaxia": "Preservativo, utilizar perfurocortantes sempre esterilizados.",
+          "tratamento": "Há vacina."
+        },
+        {
+          "nome": "Hepatite C",
+          "agente": "HCV | RNA | Envelopado",
+          "transmissao": "Relações sexuais e sangue",
+          "sintomas": "Febre, vômito e icterícia. Forma crônica causa cirrose e predisposição para câncer hepático.",
+          "profilaxia": "Preservativo, utilizar perfurocortantes sempre esterilizados.",
+          "tratamento": "Não há vacina."
+        },
+        {
+          "nome": "Gripe",
+          "agente": "H5N1, H1N1, H3N2 | RNA | Envelopado",
+          "transmissao": "Contato direto, gotículas de saliva.",
+          "sintomas": "Febre alta e repentina, dor muscular e de cabeça, sintomas respiratórios pulmonares.",
+          "profilaxia": "Evitar aglomerações e contato com doentes. Vacina de eficiência variável.",
+          "tratamento": "Tamiflu nos primeiros dias de infecção."
+        },
+        {
+          "nome": "Resfriado",
+          "agente": "Rinovírus | RNA | Não envelopado",
+          "transmissao": "Contato direto, gotículas de saliva.",
+          "sintomas": "Semelhantes aos da gripe, mas atenuados. Vias aéreas altas.",
+          "profilaxia": "Evitar aglomerações em surtos e contato com doentes.",
+          "tratamento": "Infecções comuns e leves, sem gravidade como a gripe."
+        },
+        {
+          "nome": "Dengue",
+          "agente": "DEN-1, DEN-2, DEN-3, DEN-4 | RNA | Envelopado",
+          "transmissao": "Picada do mosquito Aedes aegypti",
+          "sintomas": "Dor de cabeça, no corpo, atrás dos olhos, manchas vermelhas, cansaço. Na forma hemorrágica, há risco de hematomas e hemorragias.",
+          "profilaxia": "Eliminação de focos do mosquito, telas nas janelas, repelentes.",
+          "tratamento": "Hidratação e repouso (evitar AAS)."
+        },
+        {
+          "nome": "Raiva",
+          "agente": "Vírus da raiva | RNA | Envelopado",
+          "transmissao": "Saliva de animal infectado com mucosa ou pele escoriada",
+          "sintomas": "Atinge o sistema nervoso central, alteração de sensibilidade, ansiedade, alucinações, convulsões, hidrofobia.",
+          "profilaxia": "Vacinação de animais e de pessoas mordidas.",
+          "tratamento": "Série de doses de vacina e soro antirrábico (letal se instalado)."
+        },
+        {
+          "nome": "Ebola",
+          "agente": "Ebolavírus | RNA | Envelopado",
+          "transmissao": "Fluidos corporais, principalmente sanguíneos",
+          "sintomas": "Febre súbita, dores musculares e de cabeça, lesões orais e hemorragias internas.",
+          "profilaxia": "Isolamento do paciente, esterilização de equipamentos e EPIs.",
+          "tratamento": "Suporte intensivo; alta letalidade."
+        },
+        {
+          "nome": "Varicela (Catapora)",
+          "agente": "Varicela-Zoster | DNA | Envelopado",
+          "transmissao": "Gotículas de saliva, contato direto, objetos contaminados",
+          "sintomas": "Febre, mal-estar, lesões na pele (manchas vermelhas que viram bolhas cheias de líquido e crostas com muita coceira).",
+          "profilaxia": "Há vacina. Evitar aglomerações.",
+          "tratamento": "Repouso e alívio dos sintomas."
+        },
+        {
+          "nome": "Sarampo",
+          "agente": "Morbillivírus | RNA | Envelopado",
+          "transmissao": "Contato direto, gotículas de saliva",
+          "sintomas": "Febre alta, tosse, coriza, conjuntivite, manchas brancas na boca e exantema pelo corpo.",
+          "profilaxia": "Vacinação (Tríplice Viral).",
+          "tratamento": "Doença grave para crianças, idosos e gestantes."
+        },
+        {
+          "nome": "Febre Amarela",
+          "agente": "Vírus da Febre Amarela | RNA | Envelopado",
+          "transmissao": "Picada do mosquito Aedes aegypti",
+          "sintomas": "Febre alta, dor muscular forte, calafrios, vômito, diarreia e comprometimento do fígado (icterícia).",
+          "profilaxia": "Vacinação e controle de focos de mosquitos.",
+          "tratamento": "Suporte hospitalar."
+        },
+        {
+          "nome": "Caxumba",
+          "agente": "Pneumovírus ou Vírus da caxumba | RNA | Envelopado",
+          "transmissao": "Gotículas de saliva, contato direto",
+          "sintomas": "Inchaço e dor nas glândulas parótidas, febre e dor ao engolir.",
+          "profilaxia": "Vacina.",
+          "tratamento": "Repouso e analgésicos."
+        },
+        {
+          "nome": "Rubéola",
+          "agente": "Vírus da rubéola | RNA | Envelopado",
+          "transmissao": "Via respiratória com ar contaminado",
+          "sintomas": "Febre, dor de cabeça, dores articulares, linfonodos inchados, manchas vermelhas.",
+          "profilaxia": "Vacina.",
+          "tratamento": "Perigosa em gestantes (pode causar má-formação fetal)."
+        },
+        {
+          "nome": "Condiloma Acuminado",
+          "agente": "Papilomavírus humano (HPV) | DNA | Não envelopado",
+          "transmissao": "Relações sexuais, contato direto",
+          "sintomas": "Verrugas genitais. Algumas variedades podem ser cancerígenas.",
+          "profilaxia": "Uso de preservativo e exames regulares. Vacina.",
+          "tratamento": "Cauterização das verrugas."
+        },
+        {
+          "nome": "Mononucleose",
+          "agente": "Epstein-Barr | DNA | Envelopado",
+          "transmissao": "Contato direto com a saliva (Doença do beijo)",
+          "sintomas": "Febre, dor de garganta, hipertrofia do baço.",
+          "profilaxia": "Evitar contato com pessoas contaminadas.",
+          "tratamento": "Repouso e suporte sintomático."
+        },
+        {
+          "nome": "Herpes",
+          "agente": "HSV-1 e HSV-2 | DNA | Envelopado",
+          "transmissao": "Contato direto",
+          "sintomas": "Lesões dolorosas labiais ou genitais.",
+          "profilaxia": "Evitar contato direto com lesões ativas.",
+          "tratamento": "Antivirais (aciclovir)."
+        },
+        {
+          "nome": "Febre Zika",
+          "agente": "Zika vírus",
+          "transmissao": "Picada do Aedes aegypti e via sexual",
+          "sintomas": "Dor de cabeça, febre baixa, dores leves nas articulações, manchas vermelhas, coceira.",
+          "profilaxia": "Evitar picada de mosquito e sexo desprotegido.",
+          "tratamento": "Repouso e hidratação. Perigoso para gestantes (microcefalia)."
+        }
+      ]
+    },
+    {
+      "titulo": "🔬 Doenças Causadas por Protozoários",
+      "tipo": "Protozoário",
+      "doencas": [
+        {
+          "nome": "Amebíase",
+          "agente": "Entamoeba histolytica",
+          "transmissao": "Ingestão de cistos (água/alimentos)",
+          "sintomas": "Disenteria, ulceração mucosa intestinal, necroses no fígado, pulmões e cérebro.",
+          "profilaxia": "Saneamento básico e higiene.",
+          "tratamento": "Medicamentos amebicidas."
+        },
+        {
+          "nome": "Doença de Chagas",
+          "agente": "Trypanosoma cruzi",
+          "transmissao": "Fezes de barbeiros contaminados, transfusão sanguínea, congênita",
+          "sintomas": "Cardiopatia, megacólons, megaesôfago, hepatoesplenomegalia.",
+          "profilaxia": "Combate ao inseto barbeiro e controle de bancos de sangue.",
+          "tratamento": "Antiparasitários na fase inicial."
+        },
+        {
+          "nome": "Doença do Sono",
+          "agente": "Trypanosoma gambiense / T. rhodesiense",
+          "transmissao": "Picada da mosca tsé-tsé",
+          "sintomas": "Letargia profunda, distúrbios do sono e do sistema nervoso.",
+          "profilaxia": "Controle da mosca vetor.",
+          "tratamento": "Medicamentos específicos."
+        },
+        {
+          "nome": "Leishmaniose",
+          "agente": "Leishmania brasiliensis",
+          "transmissao": "Picada de mosquito palha",
+          "sintomas": "Úlcera na pele (calazar), linfagite, destruição de mucosas do nariz/boca.",
+          "profilaxia": "Uso de repelentes e telas.",
+          "tratamento": "Tratamento pelo SUS."
+        },
+        {
+          "nome": "Giardíase",
+          "agente": "Giardia lamblia",
+          "transmissao": "Ingestão de cistos",
+          "sintomas": "Diarreia, duodenite, cólicas abdominais.",
+          "profilaxia": "Água tratada e saneamento.",
+          "tratamento": "Antiparasitários."
+        },
+        {
+          "nome": "Tricomonose",
+          "agente": "Trichomonas vaginalis",
+          "transmissao": "Relações sexuais",
+          "sintomas": "Uretrite, prurido, leucorreia (corrimento vaginal).",
+          "profilaxia": "Uso de preservativos.",
+          "tratamento": "Medicamentos específicos."
+        },
+        {
+          "nome": "Malária",
+          "agente": "Plasmodium sp.",
+          "transmissao": "Picada da fêmea do mosquito Anopheles",
+          "sintomas": "Febre intermitente, calafrios, anemia, hipertrofia do fígado e baço.",
+          "profilaxia": "Mosquiteiros, repelentes e combate ao mosquito.",
+          "tratamento": "Antimaláricos."
+        }
+      ]
+    },
+    {
+      "titulo": "🧫 Doenças Bacterianas",
+      "tipo": "Bacteriana",
+      "doencas": [
+        {
+          "nome": "Tuberculose",
+          "agente": "Mycobacterium tuberculosis",
+          "transmissao": "Inalação de gotículas respiratórias",
+          "sintomas": "Tosse persistente (às vezes com sangue), febre, sudorese noturna, perda de peso, fadiga.",
+          "profilaxia": "Vacina BCG.",
+          "tratamento": "Antibióticos por 6 meses."
+        },
+        {
+          "nome": "Cólera",
+          "agente": "Vibrio cholerae",
+          "transmissao": "Ingestão de água ou comida contaminada",
+          "sintomas": "Diarreia aquosa intensa ('em água de arroz'), desidratação grave, vômitos, cãibras.",
+          "profilaxia": "Saneamento básico e água tratada.",
+          "tratamento": "Reidratação e antibióticos."
+        },
+        {
+          "nome": "Difteria",
+          "agente": "Corynebacterium diphtheriae",
+          "transmissao": "Contato direto ou inalação de secreções",
+          "sintomas": "Dor de garganta, febre, formação de pseudomembrana cinzenta na garganta (obstrução aérea).",
+          "profilaxia": "Vacina Tríplice Bacteriana (DTP).",
+          "tratamento": "Antitoxina diftérica e antibióticos."
+        },
+        {
+          "nome": "Coqueluche",
+          "agente": "Bordetella pertussis",
+          "transmissao": "Inalação de aerossóis",
+          "sintomas": "Tosse paroxística (acessos seguidos de guincho), vômitos pós-tosse.",
+          "profilaxia": "Vacina DTP.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Tétano",
+          "agente": "Clostridium tetani",
+          "transmissao": "Contaminação de feridas profundas com esporos do solo/ferrugem",
+          "sintomas": "Rigidez muscular (trismo), espasmos dolorosos, dificuldade para engolir.",
+          "profilaxia": "Vacina antitetânica e limpeza de feridas.",
+          "tratamento": "Soro antitetânico e UTI."
+        },
+        {
+          "nome": "Febre Tifoide",
+          "agente": "Salmonella typhi",
+          "transmissao": "Ingestão de comida ou água contaminada",
+          "sintomas": "Febre prolongada, dor abdominal, diarreia ou constipação, manchas rosadas no tronco.",
+          "profilaxia": "Saneamento básico e higiene.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Sífilis",
+          "agente": "Treponema pallidum",
+          "transmissao": "Sexual, vertical (congênita), transfusões",
+          "sintomas": "Cancro duro (ferida indolor), manchas nas mãos/pés, lesões graves no sistema nervoso na fase terciária.",
+          "profilaxia": "Uso de preservativos e pré-natal.",
+          "tratamento": "Penicilina Benzatina."
+        },
+        {
+          "nome": "Gonorreia",
+          "agente": "Neisseria gonorrhoeae",
+          "transmissao": "Relação sexual desprotegida ou parto",
+          "sintomas": "Corrimento uretral amarelado, dor ao urinar.",
+          "profilaxia": "Uso de preservativos.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Clamídia",
+          "agente": "Chlamydia trachomatis",
+          "transmissao": "Relação sexual desprotegida ou parto",
+          "sintomas": "Muitas vezes assintomática; corrimento vaginal/uretral e dor pélvica.",
+          "profilaxia": "Uso de preservativos.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Leptospirose",
+          "agente": "Leptospira interrogans",
+          "transmissao": "Contato com água/lama de enchentes com urina de rato",
+          "sintomas": "Febre alta, calafrios, dor na panturrilha, icterícia (forma grave de Weil).",
+          "profilaxia": "Evitar enchentes e controlar roedores.",
+          "tratamento": "Antibióticos e suporte médico."
+        },
+        {
+          "nome": "Hanseníase",
+          "agente": "Mycobacterium leprae",
+          "transmissao": "Contato prolongado com secreções respiratórias de doentes",
+          "sintomas": "Manchas brancas ou avermelhadas com perda de sensibilidade, espessamento de nervos.",
+          "profilaxia": "Vacina BCG e exames de contato.",
+          "tratamento": "Poliquimioterapia (PQT) pelo SUS."
+        },
+        {
+          "nome": "Doença de Lyme",
+          "agente": "Borrelia burgdorferi",
+          "transmissao": "Picada de carrapato (Ixodes)",
+          "sintomas": "Lesão circular vermelha na pele (eritema migratório), febre, artrite, paralisia facial.",
+          "profilaxia": "Uso de repelentes em áreas de mata.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Escarlatina",
+          "agente": "Streptococcus pyogenes",
+          "transmissao": "Gotículas respiratórias ou lesões de pele",
+          "sintomas": "Febre alta, dor de garganta, língua em framboesa, erupção cutânea vermelha.",
+          "profilaxia": "Higiene e isolamento de doentes.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Tifo Epidêmico",
+          "agente": "Rickettsia prowazekii",
+          "transmissao": "Fezes de piolho corporal em feridas na pele",
+          "sintomas": "Febre alta, dor de cabeça intensa, exantema (manchas vermelhas no tronco).",
+          "profilaxia": "Higiene pessoal e controle de piolhos.",
+          "tratamento": "Antibióticos."
+        },
+        {
+          "nome": "Meningite Meningocócica",
+          "agente": "Neisseria meningitidis",
+          "transmissao": "Gotículas respiratórias",
+          "sintomas": "Rigidez na nuca, febre alta, dor de cabeça intensa, manchas roxas na pele, vômitos.",
+          "profilaxia": "Vacina meningocócica.",
+          "tratamento": "Antibioticoterapia intravenosa de urgência."
+        }
+      ]
+    },
+    {
+      "titulo": "🍄 Fungos Causadores de Micoses",
+      "tipo": "Fúngica",
+      "doencas": [
+        {
+          "nome": "Dermatoficoses (Pé de Atleta / Frieira)",
+          "agente": "Trichophyton, Microsporum, Epidermophyton",
+          "transmissao": "Contato com pele ou superfícies úmidas contaminadas (tecidos queratinizados)",
+          "sintomas": "Coceira, descamação, vermelhidão e fissuras na pele entre os dedos ou unhas.",
+          "profilaxia": "Secar bem o corpo, não andar descalço em pisos úmidos, usar roupas arejadas.",
+          "tratamento": "Antifúngicos tópicos ou orais."
+        },
+        {
+          "nome": "Candidíase",
+          "agente": "Candida albicans / Candida spp.",
+          "transmissao": "Proliferação excessiva do próprio fungo (comensal em mucosas) devido à baixa imunidade",
+          "sintomas": "Placas brancas, coceira e corrimento em mucosas (oral ou vaginal).",
+          "profilaxia": "Boa higiene e evitar umidade local prolongada.",
+          "tratamento": "Antifúngicos específicos."
+        },
+        {
+          "nome": "Aspergilose",
+          "agente": "Aspergillus fumigatus",
+          "transmissao": "Inalação de esporos presentes no solo e matéria orgânica em decomposição",
+          "sintomas": "Infecções pulmonares ou sistêmicas, tosse, falta de ar.",
+          "profilaxia": "Evitar inalação de poeira e mofo.",
+          "tratamento": "Antifúngicos hospitalares."
+        },
+        {
+          "nome": "Criptococose",
+          "agente": "Cryptococcus neoformans",
+          "transmissao": "Inalação de poeira contaminada com excreta de aves (pombos)",
+          "sintomas": "Afeta pulmões, cérebro e meninges (meningite fúngica).",
+          "profilaxia": "Evitar ambientes com acúmulo de fezes de aves.",
+          "tratamento": "Antifúngicos potentes via intravenosa/oral."
+        },
+        {
+          "nome": "Histoplasmose",
+          "agente": "Histoplasma capsulatum",
+          "transmissao": "Inalação de esporos presentes em fezes de aves e morcegos",
+          "sintomas": "Infecções pulmonares semelhantes a uma gripe forte, podendo ser sistêmica.",
+          "profilaxia": "Evitar contato com cavernas e locais com fezes de morcegos sem máscara.",
+          "tratamento": "Antifúngicos."
+        }
+      ]
+    },
+    {
+      "titulo": "⚠️ Micotoxinas (Toxinas de Fungos em Alimentos)",
+      "tipo": "Micotoxina",
+      "doencas": [
+        {
+          "nome": "Aflatoxina B1",
+          "agente": "Aspergillus flavus / Aspergillus parasiticus",
+          "transmissao": "Ingestão de amendoim, milho e grãos mal armazenados",
+          "sintomas": "Efeitos hepatotóxicos (fígado), nefrotóxicos (rins) e ação carcinogênica (câncer).",
+          "profilaxia": "Não consumir alimentos mofados ou com aspecto rançoso.",
+          "tratamento": "Prevenção e descarte de alimentos contaminados."
+        },
+        {
+          "nome": "Ergotamina (Ergotismo)",
+          "agente": "Claviceps purpurea",
+          "transmissao": "Ingestão de centeio e grãos contaminados",
+          "sintomas": "Gangrena de extremidades (dedos/pés) ou convulsões.",
+          "profilaxia": "Controle rigoroso de qualidade em cereais.",
+          "tratamento": "Suporte médico de emergência."
+        },
+        {
+          "nome": "Fumonisinas",
+          "agente": "Fusarium verticillioides",
+          "transmissao": "Ingestão de milho contaminado",
+          "sintomas": "Associado a riscos de câncer de esôfago e problemas neurológicos em animais.",
+          "profilaxia": "Armazenamento seco de grãos.",
+          "tratamento": "Descarte do alimento."
+        },
+        {
+          "nome": "Ocratoxina",
+          "agente": "Aspergillus ochraceus / A. carbonarius",
+          "transmissao": "Cevada, café, vinho e uvas passas contaminadas",
+          "sintomas": "Toxicidade renal e hepática crônica.",
+          "profilaxia": "Inspeção sanitária de bebidas e grãos.",
+          "tratamento": "Evitar exposição."
+        }
+      ]
+    }
+  ]
+}
